@@ -1,20 +1,22 @@
 from time import sleep
 
+palindrome = ''
+
 def intro():
-    palindrome = ''
+    
 
     print("")
-    print("Hello and Welcome!")
+    print("         Hello and Welcome!")
     print("")
-    print("This app is simple!")
+    print("         This app is simple!")
     print("")
-    print("You enter the word/phrase/sentence and we tell you if it is a palindrome or not")
+    print("     You enter the word/phrase/sentence and we tell you if it is a palindrome or not")
     print("")
-    palindrome = input("Please your text: ")
+    palindrome = input("Please enter your text: ")
     print("")
     print("         Evaluating text. Please wait")
     print("")
-    sleep(2)
+    sleep(1)
 
 
     while palindrome == '':
@@ -22,8 +24,5 @@ def intro():
         print("         ! Sorry, an empty text is invalid")
         sleep(1)
         print("")
-        palindrome = input("Please your text: ")
-intro()
-
-
-
+        palindrome = input("Please enter your text: ")
+    return palindrome
