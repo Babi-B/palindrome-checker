@@ -26,7 +26,7 @@ def intro():
         print("")
         palindrome = input("Please enter your text: ")
     
-    while palindrome.isdigit():
+    while not palindrome.isalpha():
         print("")
         print("         ! Sorry, an empty text is invalid. Text with ALPHABETS only")
         sleep(1)
