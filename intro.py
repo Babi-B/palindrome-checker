@@ -18,10 +18,17 @@ def intro():
     print("")
     sleep(1)
 
-
+    # Do not enter an empty string
     while palindrome == '':
         print("")
         print("         ! Sorry, an empty text is invalid")
+        sleep(1)
+        print("")
+        palindrome = input("Please enter your text: ")
+    
+    while palindrome.isdigit():
+        print("")
+        print("         ! Sorry, an empty text is invalid. Text with ALPHABETS only")
         sleep(1)
         print("")
         palindrome = input("Please enter your text: ")
