@@ -20,20 +20,11 @@ def checker():
         y -= 1
         print(f"{target[x]}, {target[y]}")
         if target[x] == target[y]:
-            print(f'Hello1 {x},{y}')
             tracker += 1
             isPalindrome = True
         else:
-            print(f'Hello2 {x},{y}')
             isPalindrome = False
 
     print(f"Your text, {palindrome}, is a palindrome") if (isPalindrome and tracker == mid_indx) else print(f"Your text, {palindrome}, is not a palindrome")
-
-
-
-        
-    # target = palindrome.replace(" ","")
-    print("")
-    print(f"This is a {target}")
 
 
