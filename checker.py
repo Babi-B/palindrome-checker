@@ -18,10 +18,8 @@ def checker():
     while x < len(target)  and y > 0 and isPalindrome:
         x += 1
         y -= 1
-        print(f"{target[x]}, {target[y]}")
         if target[x] == target[y]:
             tracker += 1
-            isPalindrome = True
         else:
             isPalindrome = False
 
