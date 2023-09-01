@@ -2,6 +2,6 @@
 def clean_palindrome(palindrome):
     target = ''
     for pal in palindrome:
-        if pal.isalpha():
+        if pal.isalpha() or pal.isdigit():
             target += pal
     return target
