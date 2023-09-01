@@ -3,7 +3,6 @@ from time import sleep
 palindrome = ''
 
 def intro():
-    
 
     print("")
     print("         Hello and Welcome!")
@@ -27,7 +26,7 @@ def intro():
         palindrome = input("Please enter your text: ")
     
     # User should not input text that has a string in it WIP
-    
+
     # while palindrome.isdigit():
     #     print(f"Here is your {palindrome}")
     #     print("")
@@ -35,4 +34,5 @@ def intro():
     #     sleep(1)
     #     print("")
     #     palindrome = input("Please enter your text: ")
+    
     return palindrome

@@ -3,5 +3,4 @@ from checker import checker
 
 def app():
     checker()
-
 app()
